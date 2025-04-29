@@ -1,464 +1,244 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 5.4.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"ontisme.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
-
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Ontisme&#39;s Hexo">
-<meta property="og:url" content="https://ontisme.github.io/index.html">
-<meta property="og:site_name" content="Ontisme&#39;s Hexo">
-<meta property="og:locale" content="zh_TW">
-<meta property="article:author" content="Ontisme">
-<meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="https://ontisme.github.io/">
-
-
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'zh-TW'
-  };
-</script>
-
-  <title>Ontisme's Hexo</title>
-  
-
-
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資源與工具集合</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        ul {
+            list-style-type: circle;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background-color: #f8f8f8;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #e74c3c;
+        }
+        pre {
+            background-color: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border: 1px solid #ddd;
+        }
+    </style>
 </head>
+<body>
+    <h1>系統鏡像</h1>
+    <ul>
+        <li>Windows ISO集合：<a href="https://ourl.co/lanod">連結</a> - <code>解壓縮密碼：landian.vip</code></li>
+        <li>ALL OS 集合：<a href="https://www.getmyos.com/">連結</a></li>
+        <li>CentOS7 ISO清華鏡像：<a href="https://mirrors.tuna.tsinghua.edu.cn/centos/7/isos/x86_64/">連結</a></li>
+        <li>Ubuntu ISO鏡像：<a href="http://mirrors.ustc.edu.cn/ubuntu-releases/">連結</a></li>
+        <li>KMS AIO：PowerShell 執行：<code>irm https://get.activated.win | iex</code></li>
+    </ul>
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
+    <h1>常用軟體</h1>
+    <ul>
+        <li>Discord：<a href="https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9006/DiscordSetup.exe">連結</a></li>
+        <li>LINE：<a href="https://desktop.line-scdn.net/win/new/LineInst.exe">連結</a></li>
+        <li>Defender Control：<a href="https://www.sordum.org/files/downloads.php?st-defender-control">連結</a> - <code>解壓縮密碼：sordum</code></li>
+        <li>PotPlayer：<a href="https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe">連結</a></li>
+        <li>Office365：<a href="https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365ProPlusRetail&platform=x64&language=zh-tw&version=O16GA">連結</a></li>
+        <li>WinRAR：<a href="https://mega.nz/file/ohgRSYxC#XsFidQMIuH6m8Xi3ymvHq-cq6j6NBcBlZqvJ2O9ykQs">連結</a></li>
+        <li>OBS：<a href="https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.2.3-Windows-Installer.exe">連結</a></li>
+    </ul>
 
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切換導航欄">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
+    <h1>IDE</h1>
+    <ul>
+        <li>Pycharm：<a href="https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows">連結</a></li>
+        <li>WebStorm：<a href="https://www.jetbrains.com/webstorm/download/download-thanks.html?platform=windows">連結</a></li>
+        <li>Happy：<a href="https://3.jetbra.in/">連結</a></li>
+    </ul>
 
-  <div class="site-meta">
+    <h1>編輯器</h1>
+    <ul>
+        <li>NotePad++：<a href="https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.9/npp.8.6.9.Installer.x64.exe">連結</a></li>
+        <li>VSCode：<a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user">連結</a></li>
+    </ul>
 
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Ontisme's Hexo</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
+    <h1>字體</h1>
+    <ul>
+        <li>Maple Font：<a href="https://github.com/subframe7536/maple-font/releases">連結</a></li>
+    </ul>
 
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
+    <h1>Git工具</h1>
+    <ul>
+        <li>GitKraken：<a href="https://www.gitkraken.com/download/windows64">連結</a></li>
+    </ul>
 
+    <h1>遠程軟體</h1>
+    <ul>
+        <li>RustDesk：<a href="https://github.com/rustdesk/rustdesk/releases/">連結</a></li>
+        <li>AnyDesk：<a href="https://anydesk.com/zh-tw/downloads/thank-you?dv=win_exe">連結</a></li>
+    </ul>
 
+    <h1>調適工具</h1>
+    <ul>
+        <li>Postman：<a href="https://dl.pstmn.io/download/latest/win64">連結</a></li>
+    </ul>
 
+    <h1>油猴腳本</h1>
+    <ul>
+        <li>CSDN Bypass：<a href="https://greasyfork.org/zh-CN/scripts/378351-csdngreener-csdn%E5%B9%BF%E5%91%8A%E5%AE%8C%E5%85%A8%E8%BF%87%E6%BB%A4-%E5%85%8D%E7%99%BB%E5%BD%95-%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%92%E7%89%88-%E6%9C%80%E5%BC%BA%E8%80%81%E7%89%8C%E8%84%9A%E6%9C%AC-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0">連結</a></li>
+        <li>ChatGPT 自動繼續：<a href="https://greasyfork.org/zh-CN/scripts/466789-chatgpt-auto-continue">連結</a></li>
+    </ul>
 
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
+    <h1>VR</h1>
+    <ul>
+        <li>OpenVRSpaceCalibrator：<a href="https://github.com/bdunderscore/OpenVR-SpaceCalibrator/releases/download/v1.4-bd_-r2/OpenVR-SpaceCalibrator.exe">連結</a></li>
+    </ul>
 
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+    <h1>虛擬系統</h1>
+    <ul>
+        <li>VMware Workstaion：<a href="https://201708.mediafire.com/file/jv0juc5a32nphso/VMware_Workstation_Pro_17.6.1_setup_azo.exe/file">連結</a> - <code>JU090-6039P-08409-8J0QH-2YR7F</code></li>
+    </ul>
 
-  </li>
-        <li class="menu-item menu-item-categories">
+    <h1>傳輸工具</h1>
+    <ul>
+        <li>Internet Download Manager v6.4：<a href="https://drive.google.com/file/d/1460Ndw6h9Vn45Jv2LcGXbjh5gvCbhL8n/view?usp=sharing">連結</a> - <code>解壓縮密碼：1234</code></li>
+    </ul>
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+    <h1>連線工具</h1>
+    <ul>
+        <li>Mobaxterm：<a href="https://download.mobatek.net/2422024061715901/MobaXterm_Installer_v24.2.zip">連結</a></li>
+        <li>FinalShell：<a href="http://www.hostbuf.com/downloads/finalshell_install.exe">連結</a></li>
+        <li>XShell：<a href="https://www.jb51.net/softs/732916.html">連結</a></li>
+        <li>WinSCP：<a href="https://cdn.winscp.net/files/WinSCP-5.21.5-Setup.exe?secure=UCBVs_tFgcmkZOUuBpz_Ng==,1669267296">連結</a></li>
+        <li>Electerm：<a href="https://electerm.github.io/electerm/">連結</a></li>
+    </ul>
 
-  </li>
-        <li class="menu-item menu-item-archives">
+    <h1>開發相關工具</h1>
+    <ul>
+        <li>Navicat：<a href="https://download3.navicat.com/download/navicat162_premium_ct_x64.exe">連結</a></li>
+        <li>Navicat Happy：<a href="https://drive.google.com/file/d/1YVK4NdzLpVwdqW2x_nn-h5TZjKizVJaW/view?usp=sharing">連結</a></li>
+    </ul>
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+    <h1>網站管理</h1>
+    <ul>
+        <li>寶塔：<a href="https://bt.sy/bbs/thread-20250-1-1.html">連結</a></li>
+    </ul>
 
-  </li>
-  </ul>
-</nav>
+    <h1>系統元件</h1>
+    <ul>
+        <li>AIO Runtime 2.5.0：<a href="https://201708.mediafire.com/file/20777ipkoncu1i9/All_in_One_Runtimes_2.5.0_azo.exe/file">連結</a></li>
+        <li>VC++ 全家桶：<a href="https://github.com/abbodi1406/vcredist/releases">連結</a></li>
+    </ul>
 
+    <h1>瀏覽插件</h1>
+    <ul>
+        <li>百度高速下載腳本(可批次)：<a href="https://www.baiduyun.wiki/install.html">連結</a></li>
+        <li>百度高速下載腳本(穩定高速、僅單次)：<a href="https://www.cnblogs.com/softxmm/p/13972678.html#idm">連結</a></li>
+    </ul>
 
-
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content index posts-expand">
-            
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://ontisme.github.io/2021/03/22/python-common/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Ontisme">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Ontisme's Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/03/22/python-common/" class="post-title-link" itemprop="url">Python 常用語句</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-              
-
-              <time title="創建時間：2021-03-22 23:20:09 / 修改時間：23:22:19" itemprop="dateCreated datePublished" datetime="2021-03-22T23:20:09+08:00">2021-03-22</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="自動生成-requirements-txt"><a href="#自動生成-requirements-txt" class="headerlink" title="自動生成 requirements.txt"></a>自動生成 requirements.txt</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 freeze &gt; requirements.txt </span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://ontisme.github.io/2021/03/21/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Ontisme">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Ontisme's Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/03/21/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2021-03-21 23:33:46" itemprop="dateCreated datePublished" datetime="2021-03-21T23:33:46+08:00">2021-03-21</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2021-03-22 00:06:14" itemprop="dateModified" datetime="2021-03-22T00:06:14+08:00">2021-03-22</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
-
-
-
-          </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目錄
+    <h1>實用捷徑</h1>
+    <ul>
+        <li>ChromeRemote
+        <pre><code>"C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe" --profile-directory=Default  --app="https://remotedesktop.google.com/u/0/access/session/34410cd1-6569-8aae-29c9-6fa5ceaa0338"</code></pre>
         </li>
-        <li class="sidebar-nav-overview">
-          本站概要
+    </ul>
+
+    <h1>手機刷機</h1>
+    <ul>
+        <li>Samsung Galaxy S7 Root：<a href="https://youtu.be/YYQa3XcFCwo">連結</a> - <code>做到 Magisk 提取出來的檔案 用 Odin 刷 AP 就可以了</code></li>
+    </ul>
+
+    <h1>逆向工程</h1>
+    <ul>
+        <li>IDA Pro：<a href="https://drive.google.com/file/d/1nRFZLze31pd3LeBZlP2v2mqlELEP98t1/view?usp=sharing">連結</a></li>
+        <li>010 Editor：<a href="https://drive.google.com/file/d/19Cq3PqRvl3DCrpIjtw4M8a__kbbs5y9z/view?usp=sharing">連結</a></li>
+    </ul>
+
+    <h1>程式打包</h1>
+    <ul>
+        <li>The Enigma Protector v6.80 x64：<a href="https://drive.google.com/file/d/1lNbIDzgHumwFi0eveVeK0-uOU80u0M9V/view?usp=sharing">連結</a></li>
+    </ul>
+
+    <h1>移除軟體</h1>
+    <ul>
+        <li>Revo Uninstaller：<a href="https://secure.2checkout.com/affiliate.php?ACCOUNT=VSREVOGR&AFFILIATE=6433&PATH=https://download.revouninstaller.com/download/RevoUninstaller_Portable.zip%3FAFFILIATE%3D6433">連結</a></li>
+    </ul>
+
+    <h1>代理軟體</h1>
+    <ul>
+        <li>老魚SK5代理：<a href="https://wwso.lanzouq.com/b02ule1od">連結</a></li>
+    </ul>
+
+    <h1>Linux指令</h1>
+    <ul>
+        <li>修改 Root 密碼 登入 
+        <pre><code>sudo -i
+passwd
+sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
+sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
+sudo service sshd restart</code></pre>
         </li>
-      </ul>
+    </ul>
 
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
+    <h1>梯子搭建腳本</h1>
+    <ul>
+        <li>Works on Centos Ubuntu
+        <pre><code>sudo -i
+bash &lt;(curl -Ls https://raw.githubusercontent.com/sprov065/x-ui/master/install.sh)
+iptables -P INPUT ACCEPT
+iptables -P FORWARD ACCEPT
+iptables -P OUTPUT ACCEPT
+iptables -F</code></pre>
+        </li>
+    </ul>
 
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">Ontisme</p>
-  <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">2</span>
-          <span class="site-state-item-name">文章</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
-        <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">分類</span></a>
-      </div>
-  </nav>
-</div>
+    <h1>SK5管理系統</h1>
+    <p><a href="https://github.com/wyx176/nps-socks5">https://github.com/wyx176/nps-socks5</a></p>
 
+    <h1>Windows Server 2012r2 在 VMWare 的注意事項</h1>
+    <pre><code>無法自動安裝 VMware Tools
+需手動下載以下更新 (須按照順序)：</code></pre>
+    <ul>
+        <li><a href="https://tinyurl.com/2012r2vmfix">直接Batch修復</a></li>
+        <li><a href="https://www.microsoft.com/zh-tw/download/details.aspx?id=43530">KB2975061</a></li>
+        <li><a href="https://www.microsoft.com/zh-tw/download/details.aspx?id=42335">KB2919355</a></li>
+    </ul>
 
+    <pre><code>powershell -Command "Invoke-WebRequest -Uri 'https://tinyurl.com/2012r2vmfix' -OutFile 't.bat'; Start-Process 't.bat' -Wait"</code></pre>
 
-      </div>
-
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2021</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Ontisme</span>
-</div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
-  </div>
-
-        
-
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
-
-  
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/pisces.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
+    <h1>GCP Tips (過時)</h1>
+    <pre><code>1.無痕登入新帳號的GCP
+2.選單進入帳單
+3.右方的帳單帳戶→管理
+4.變更帳單帳戶名稱 (可有可無)
+5.右方新增主體
+6.新增主體輸入主帳號
+7.指派角色→帳單→帳單帳戶管理員
+8.稍帶一會，切回主帳號帳單頁，會看到新帳號GCP進入帳單帳戶
+9.主帳號切到我的專案，對當前專案點選右方操作→變更帳單→修改為新增的GCP帳戶
+10.主帳號切到帳單，左方選單選帳戶管理，選取好帳單帳戶後，點關閉帳單帳戶
+11.舊帳號，前往https://pay.google.com/gp/w/u/0/home/paymentmethods，刪除信用卡</code></pre>
 </body>
 </html>
